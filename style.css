@@ -137,3 +137,6 @@ footer{
     text-align: center;
     font-weight: bolder;
 }
+footer a{
+    color: #d3a9ff;
+}
