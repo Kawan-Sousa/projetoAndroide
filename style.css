@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "brasink";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #1E9FF8;
+}
+
+header{
+    color: #fff;
+    background-image: linear-gradient(0deg, #2935F0, #1E9FF8);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+a{
+    color: #2935F0;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: #fff;
+    margin-left: 20px;
+}
+
+header > h1, header > p{
+    text-align: center;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+article > h2{
+    font-family: brasink;
+    margin: 0 0 10px 15px;
+
+    color: #411AD9;
+    background-image: linear-gradient(90deg, #7ccbff, #fff);
+}
+
+article > h1{
+    font-family: "brasink";
+    color: #411AD9;
+    font-size: 2em;
+}
+
+article > p{
+    margin: 0 10px;
+    text-indent: 30px;
+    text-align: justify;
+}
+article > p > a::after{
+    content: '⚯';
+    color: black;
+}
+
+article > picture > img{
+    width: 95%;
+    margin-left: 2%;
+}
+
+#bugdroid{
+    width: 350px;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+iframe{
+    width: 100%;
+    height: 40vw;
+    padding: 20px 40px;
+    background-color: #411AD9;
+}
+
+
+aside{
+    margin: 0 20px;
+}
+
+#aside-cabeca{
+    background-color: #861EF8;
+    color: #fff;
+
+    font-weight: bold;
+
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+#aside-corpo{
+    background-color: #c58fff;
+    padding: 10px 10px 10px 50px;
+
+}
+
+section > ul{
+    margin: 30px 0;
+    width: 50%;
+    float: left;
+}
+
+section > p > a, aside > p > a{
+    color: #861EF8;
+}
+
+section > p > a::after{
+    content: '⚯';
+    color: #383838;
+}
+
+#aside-corpo > p, aside > p{
+    margin-top: 10px;
+    text-indent: 30px;
+}
+
+footer{
+    height: 25px;
+
+    background-color: #280e8f;
+    color: #fff;
+
+    text-align: center;
+    font-weight: bolder;
+}
